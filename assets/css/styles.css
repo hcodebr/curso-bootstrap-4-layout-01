@@ -1,0 +1,28 @@
+header {
+    background-color: #F37520;
+    min-height: 64px;
+}
+
+header ul {
+    margin: 0;
+}
+
+section nav {
+    background-color: #EDEDED;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #454545;
+    padding: 2rem;
+}
+
+@media (min-width: 576px) {
+    main {
+        height: calc(100vh - 300px);
+        overflow: auto;
+    }
+    footer {
+        min-height: 236px;
+    }
+}
